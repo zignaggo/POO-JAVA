@@ -68,13 +68,14 @@ Basicamente você tem os tipos primitivos dividos em 2 categorias:
 -   **booleans (verdadeiro/falso)**
 -   **numbers (números)**
     Os números são divididos em 2 categorias também:
-    - **Inteiros** 
-    - **byte**: 8 bits // -128 a 127 - **short**: 16 bits // -32.768 a 32.767 
-    - **int**: 32 bits // -2.147.483.648 a 2.147.483.647 
-    - **long**: 64 bits // número pra kct - **char**: caracter
-        -   **Pontos flutuantes** (vírgula)
-            -   **float**: 32 bits
-            -   **double**: 64 bits
+    - **inteiros** 
+        - **byte**: 8 bits // -128 a 127 - **short**: 16 bits // -32.768 a 32.767 
+        - **int**: 32 bits // -2.147.483.648 a 2.147.483.647 
+        - **long**: 64 bits // número pra kct
+        - **char**: caracter
+    - **pontos flutuantes** (vírgula)
+        - **float**: 32 bits
+        - **double**: 64 bits
 
 ##### Representando bases em java
 É possível separar os números com o "_", de forma que fique mais legível.
