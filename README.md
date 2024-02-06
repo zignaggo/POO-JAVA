@@ -1,5 +1,8 @@
 ## POO Anotações
 
+##### Próxima video aula: 
+[Curso de Java 12: Lendo dados do teclado usando a classe Scanner](https://www.youtube.com/watch?v=Z6Y8zupCKfk&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&index=15)
+> Tempo: 00:00
 ##### Referências:
 
 -   [Curso de Java Básico gratuito](https://youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&si=kR03_n1LTnHH2wzU)
@@ -22,33 +25,34 @@
 
 ### Conceitos POO
 
-**Pacotes**
+##### Pacotes
 Formas de organizar as pastas
 Convenção:
 
 > dominio + projeto + pasta
-ex: com.zig.poo.aula1
+> ex: com.zig.poo.aula1
 
 ---
 
 -   **Classes**:
-    Descrição de um ou mais objetos/algo.
-    Uma classe contém: - Nome da classe - Conjunto de atributos (descrição) - Conjunto de métodos (comportamento/ações)
+    - Descrição de um ou mais objetos/algo.
+    - Uma classe contém: - Nome da classe - Conjunto de atributos (descrição) - Conjunto de métodos (comportamento/ações)
 -   **Herança**:
-    Permite reutilização de estrutura e comportamento de uma classe. Ex:
+    - Permite reutilização de estrutura e comportamento de uma classe.
+    - Ex:
     ![alt text](heranca.png)
 -   **Polimorfismo**:
-    Geralmente relacionado a métodos.
-    Seguindo o exemplo acima dos animais, todos emitem sons, entretanto cada espécie tem sua forma de emitir um som, ex: o gato **mia**, o cachorro **late**, a vaca **berra**, etc...
+    - Geralmente relacionado a métodos.
+    - Seguindo o exemplo acima dos animais, todos emitem sons, entretanto cada espécie tem sua forma de emitir um som, ex: o gato **mia**, o cachorro **late**, a vaca **berra**, etc...
     Percebe-se que temos um padrão em relacão as ações/métodos mas que apenas o valor ou até a forma que é implementada é alterada.
 
-#### Syntax Java
+### Syntax Java
 
 > **Obs**: favor não esquecer o **ponto e virgula ;**
-> utilizase o **camelCase** entretanto para criação de classes e de objetos utilizasse o **PascalCase**;
+> Utiliza-se o **camelCase** entretanto para criação de classes e de objetos utilizasse o **PascalCase**;
 > ![alt text](case.png)
 
-##### Como declarar uma variável?
+#### Como declarar uma variável?
 `<tipo> <nome da variavel>`
 `<tipo> <nome da variavel> = <valor>`
 
@@ -57,7 +61,7 @@ String nome;
 String nome = "Jorge";
 ```
 
-##### Tipos Primitivos
+#### Tipos Primitivos
 Ocupam menos espaço, tem valores fixos do quanto eles irão ocupar na memória.
 Basicamente você tem os tipos primitivos dividos em 2 categorias:
 
