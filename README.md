@@ -7,7 +7,30 @@
 
 -   [Curso de Java Básico gratuito](https://youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&si=kR03_n1LTnHH2wzU)
 - [Ascii](https://www.asciitable.com/)
+- [Entenda o que é WORA, JVM, JDK e JRE! - Ep. 1](https://www.youtube.com/watch?v=U6Gh6HYyl6c)
 ---
+##### Problemática, e como o java se tornou multiplataforma?
+A linguagem de alto nível para poder ser entendida pelo computador necessita ser traduzida por meio do compilador para o computador.  
+**Fluxo**:  
+![Default Flux Programing](DefaultFluxPrograming.png)
+Seguindo esse fluxo percebe-se que teriamos que ter uma versão do mesmo programa para cada sistema operacional, que é o que normalmente acontece, temos a versão para windows, linux, macos, etc...  
+Pensando neste problema e visando a portabilidade/multiplataforma, os desenvolvedores do java decidiram fazer as coisas de uma forma diferente.
+![Java Flux](javaFlux.png)
+> **WORA**: Write Once Run All
+2 coisas novas foram adicionadas:
+* O compilador agora gera em vez de gerar um código executável, ele gera bytecode com extensão .class que é entendido pela jvm.
+* Jvm: se tornou responsável por fazer a tradução do código de acordo com as especificidades de cada máquina. 
+
+#### JVM VS JDK VS JRE
+* **JVM** ->  **Tradutor** responsável por transformar o bytecode em código executável/binário.
+* **JRE** ->  Ambiente de execução do java onde você vai ter todas as bibliotecas padrões do java que serão utilizadas.
+    * A JRE provê os requisitos mínimos para executar um programa java. Ele contém uma JVM, os pacotes básicos do Java (API core), por exemplo o pacote lang que tem a classe String.  
+    Por fim o JRE também provê ferramentas para executar os programas java. Uma delas é o executável java.exe, que é utilizado para executar uma classe java que contém um método main(String args[]).  
+    Agora você já sabe que quando você executa o comando java SuaClasse, é o JRE que provê esse programa java.exe que você está usando.
+* **JDK** ->  Ambiente de desenvolvimento Java.
+
+![jdk](JdkJvmJre.png)
+
 
 ##### Identificando elementos no código.
 ![alt text](codeelements.png)
